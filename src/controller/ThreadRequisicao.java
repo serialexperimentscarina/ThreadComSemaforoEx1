@@ -12,6 +12,7 @@ public class ThreadRequisicao extends Thread {
 		this.threadID = threadID;
 	}
 	
+	// Simule a situação de 21 Threads simultâneas, com exibição em console de cada passo que a Thread está realizando.
 	@Override
 	public void run() {
 		if (threadID % 3 == 1) {
